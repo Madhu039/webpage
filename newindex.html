@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    header {
+        text-align: center;
+        background-color: white;
+    }
+
+
+    .home {
+        padding-left: 20px;
+        font-size: 20px;
+        display: inline;
+
+    }
+
+    .img {
+        position: relative;
+        width: auto;
+        height: 100vh;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content {
+        position: absolute;
+        top: 100px;
+        left: 50px;
+        background-color: rgb(246, 140, 140);
+        opacity: 0.7;
+    }
+
+    h1 {
+        margin: 0px;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+    }
+
+    .middle {
+        
+        width: auto;
+        height: auto;
+        background-image: linear-gradient(45deg, yellow, red);
+    }
+
+
+
+    .article {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .article .card {
+        border-radius: 0px 50px 0px;
+        background: #98f53b;
+        padding: 20px;
+        width: 220px;
+        height: 350px;
+        text-align: center;
+    }
+
+
+
+    .submit {
+        position: relative;
+        justify-content: center;
+
+    }
+
+    button {
+        border-color: #090909;
+        height: 25px;
+        width: 75px;
+        border-radius: 25px 25px 25px;
+    }
+
+
+    @media (min-width:100px) and (max-width:500px) {
+        header {
+            overflow: hidden;
+        }
+    }
+</style>
+
+
+<body>
+    <header>
+        <div>
+            <div class="home"> <span>home</span></div>
+            <div class="home"> <span>food</span></div>
+            <div class="home"> <span>order</span></div>
+            <div class="home"> <span>Restaurant </span></div>
+            <div class="home"> <span>Testimonials </span></div>
+            <div class="home"> <span>Contact Us </span></div>
+
+        </div>
+    </header>
+    <div class="img">
+        <img src="img1.jpg">
+
+        <div class="content">
+            <h1>LOREM IPSUM</h1>
+            <p>Lorem Ipsum has been the industry's standard dummy <br>
+                text ever since the 1500s, when an unknown printer took <br>
+                a galley of type and scrambled it to make a type <br>
+                specimen book.</p>
+
+        </div>
+    </div>
+
+    <div class="middle">
+        <div class="hel">
+            <h1>Order now</h1>
+        </div>
+        <div class="article">
+            <div class="card">
+                <div>
+                    <img src="img44.jpg" width="80px" height="auto">
+                </div>
+                <h3>BURGER</h3>
+                <p>Lorem Ipsum has been the<br>
+                    industry's standard dummy text</p>
+            </div>
+
+
+            <div class="card">
+                <div>
+                    <img src="img222.jpg" width="80px" height="auto">
+                </div>
+                <h3>PIZZA</h3>
+                <p>Lorem Ipsum has been the<br>
+                    industry's standard dummy text</p>
+            </div>
+
+
+
+            <div class="card">
+                <div>
+                    <img src="img33.jpg" width="80px" height="auto">
+                </div>
+                <h3>PASTA</h3>
+                <p>Lorem Ipsum has been the<br>
+                    industry's standard dummy text</p>
+            </div>
+        </div>
+        <div class="submit">
+            <button> order</button>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
